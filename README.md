@@ -30,7 +30,9 @@ To set up the project locally, follow these steps:
 
 1. Clone the repository:
 
-  `git clone https://github.com/your_username/react-travel-journal.git`
+```
+git clone https://github.com/your_username/react-travel-journal.git
+```
 
 
 2. Navigate to the project directory:
@@ -40,12 +42,15 @@ To set up the project locally, follow these steps:
 
 3. Install the necessary dependencies:
 
-  `npm install`
-
+```
+npm install
+```
 
 4. Start the development server:
 
-  `npm start`
+```
+npm start
+```
 
 5. Open your browser and go to http://localhost:3000 to see the application in action.
 
