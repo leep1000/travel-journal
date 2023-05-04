@@ -2,8 +2,6 @@
 
 This repository contains the source code for the "React Travel Journal" personal project completed as part of the Scrimba Learn React course. The project focuses on passing props down and conditional rendering, which are essential concepts in React development.
 
-![React Travel Journal Screenshot](./src/images/travel-journal-screenshot.PNG)
-
 https://lee-travel-journal.netlify.app/
 
 ## Table of Contents
