@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# React Travel Journal
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains the source code for the "React Travel Journal" personal project completed as part of the Scrimba Learn React course. The project focuses on passing props down and conditional rendering, which are essential concepts in React development.
 
-## Available Scripts
+![React Travel Journal Demo](./demo-image.png)
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [About the Project](#about-the-project)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies Used](#technologies-used)
+- [Acknowledgements](#acknowledgements)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## About the Project
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The React Travel Journal is a web application that displays a record of my travels. The project uses hard-coded data for journal entries, which is then passed down as props using the `.map()` function. Conditional rendering is employed to ensure that the last card component does not have a thematic break underneath it. The main learning objectives of this project were to better understand passing props down to child components and conditional rendering in React.
 
-### `npm test`
+By completing this project, it solidified the concepts of handing down props in my mind, as well as how those props can then be used for addtional virtual DOM manipulation afterwards. It also highlighted how, well, reactive React is! As soon as I hard-coded a new item into my data object - Bam! It appeared right there on the page, fully styled, as if by magic.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Key features include:
+- Displaying a list of travel journal entries on the main page
+- Passing hard-coded data as props to child components
+- Conditional rendering based on the position of the entry card
+- Designed with mobile devices in minda
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To set up the project locally, follow these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository:
+git clone https://github.com/your_username/react-travel-journal.git
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+2. Navigate to the project directory:
+For this project, the directory is 'travel'.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Install the necessary dependencies:
+npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. Start the development server:
+npm start
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+5. Open your browser and go to http://localhost:3000 to see the application in action.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Usage
 
-### Code Splitting
+- The application will display a list of travel journal entries on the main page, showcasing the title, date, location, image, Google Maps link and a brief description of each location.
+- The last entry card in the list will not have a `<hr />` underneath it, thanks to conditional rendering.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Technologies Used
 
-### Analyzing the Bundle Size
+- HTML5
+- CSS
+- JavaScript
+- React
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Acknowledgements
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [Scrimba Learn React Course](https://scrimba.com/learn/learnreact)
+- [Create React App](https://github.com/facebook/create-react-app)
