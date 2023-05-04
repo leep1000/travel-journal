@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+* {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+  color: #2b283a;
+}
+
+.App {
+  width: 550px;
+  margin: 0 auto 10px;
+}
+
+.header--container {
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff5757;
+  border-radius: 4px;
+  gap: 7px;
+  margin-bottom: 30px;
+}
+
+.header--title {
+  font-weight: 500;
+  font-size: 14.5px;
+  color: #fff;
+}
+
+.world--icon {
+  width: 20px;
+  height: auto;
+}
+
+.card--container {
+  display: flex;
+  flex-direction: column;
+}
+
+.card--content {
+  display: flex;
+  gap: 20px;
+  width: 550px;
+  max-width: 100%;
+  margin: 0 40px 15px 0;
+}
+
+.cards-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  gap: 18px;
+  margin-right: 40px;
+}
+
+.card--image {
+  width: 125px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-left: 40px;
+  transition: transform 0.2s ease;
+}
+
+.card--image:hover {
+  transform: scale(1.1);
+}
+
+.card--items {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.card--location--items {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.card--location--items > img {
+  height: 9.5px;
+  width: auto;
+}
+
+.card--location--name {
+  font-weight: 400;
+  font-size: 10.25px;
+  margin-left: 4px;
+  letter-spacing: 0.05em;
+}
+
+.card--google--maps {
+  font-weight: 400;
+  font-size: 10.25px;
+  margin-left: 12px;
+}
+
+.card--google--maps a {
+  text-decoration: underline;
+  color: #918e9b;
+}
+
+.card--title {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.card--dates {
+  font-size: 10.25px;
+  font-weight: 700;
+  margin-bottom: 9px;
+}
+
+.card--description {
+  font-size: 10.25px;
+  font-weight: 400;
+}
+
+.card--divider {
+  border: 1px solid #e3e3e3;
+  border-radius: 10px;
+  background-color: #e3e3e3;
+  margin-left: 40px;
+}
+
+.card--footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  background-color: #e3e3e3;
+  border-radius: 6px;
+  gap: 10px;
+}
+
+.card--footer--icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: whitesmoke;
+  border-radius: 6px;
+  gap: 2.5px;
+}
+
+.card--footer--icon {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  transition: transform 0.2s ease;
+}
+
+.card--footer--icon:hover {
+  transform: scale(1.1);
+}
