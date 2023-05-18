@@ -22,7 +22,7 @@ Key features include:
 - Displaying a list of travel journal entries on the main page
 - Passing hard-coded data as props to child components
 - Conditional rendering based on the position of the entry card
-- Designed with mobile devices in minda
+- Designed with mobile devices in mind
 
 ## Installation
 
